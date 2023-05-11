@@ -56,3 +56,24 @@
 //     myResult.innerHTML = integerBoolean(myArr);
 //     console.log(myArr)
 // }
+
+
+// ? Task #4
+// ? Tallest Birthday Cake Candles
+
+// function birthdayCakeCandles(candles) {
+//     let myArr = [];
+//     myArr = candles.filter(elem => elem == Math.max(...candles));
+//     return myArr.length;
+// }
+
+// let myButton = document.querySelector(".my-button");
+
+// myButton.onclick = () => {
+//     let candlesInpute = document.querySelector(".candles-inpute");
+//     let result = document.querySelector(".result");
+
+//     let arr = candlesInpute.value.trim().split(" ");
+
+//     result.innerHTML = birthdayCakeCandles(arr);
+// }
