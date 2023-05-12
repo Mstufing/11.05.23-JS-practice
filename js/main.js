@@ -209,3 +209,90 @@
 
 //     result.innerHTML = height(inp1.value);
 // }
+
+
+// ? Task #11
+// ? Classes For Fetching Information on a Sports Player
+// ! How to call function in DOM inside class ?
+
+// class Player {
+//     constructor(name, age, height, weight) {
+//         // complete function
+//         this.name = name;
+//         this.age = age;
+//         this.height = height;
+//         this.weight = weight;
+//     }
+
+//     getAge() {
+//         // complete function
+//         return `${this.name} is age ${this.age}`;
+//     }
+
+//     getHeight() {
+//         // complete function
+//         return `${this.name} is ${this.height}cm`;
+//     }
+
+//     getWeight() {
+//         // complete function
+//         return `${this.name} weighs ${this.weight}kg`;
+//     }
+// }
+
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let nameInp = document.querySelector(".name-inp");
+//     let ageInp = document.querySelector(".age-inp");
+//     let heightInp = document.querySelector(".height-inp");
+//     let weightInp = document.querySelector(".weight-inp");
+//     let result = document.querySelector(".result");
+
+//     result.innerHTML = getAge(nameInp.value, ageInp.value);
+//     result.innerHTML = getHeight(nameInp.value, heightInp.value);
+//     result.innerHTML = getWeight(nameInp.value, weightInp.value);
+// }
+
+
+// ? Task #12
+// ? Scottish Screaming
+// ! This code runs in VS but doen't work in  EdaBit !!!
+
+// function toScottishScreaming(str) {
+//     let res = str.replaceAll('a', 'e').replaceAll("i", "e").replaceAll("o", "e").replaceAll("u", "e");
+//     return res.toUpperCase();
+// }
+
+// console.log(toScottishScreaming("Mr. Fox was very naughty"));
+// console.log(toScottishScreaming("Butterflies are beautiful!"));
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let nameInp = document.querySelector(".name-inp");
+//     let result = document.querySelector(".result");
+
+//     result.innerHTML = toScottishScreaming(nameInp.value);
+// }
+
+
+// ? Task #13
+// ?
+
+// function wumbo(words) {
+//     return words.replaceAll("M", "W");
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let wemboInp = document.querySelector(".wembo-inp");
+//     let myRes = document.querySelector(".result");
+
+//     myRes.innerHTML = wumbo(wemboInp.value);
+// }
+
+// console.log(wumbo("I LOVE MAKING CHALLENGES"));
+// console.log(wumbo("MEET ME IN WARSAW"));
