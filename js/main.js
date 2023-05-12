@@ -21,7 +21,7 @@
 
 // ? Task #2
 // ? Filter Strings from Array
-// ! Function works but DOM not ? What's wrong ? Check it !
+// ! Function works but DOM doesn't ? What's wrong ? Check it !
 
 // function filterArray(arr) {
 //     return arr.filter(elem => typeof elem == "number" && Number.isInteger(elem));
@@ -76,4 +76,49 @@
 //     let arr = candlesInpute.value.trim().split(" ");
 
 //     result.innerHTML = birthdayCakeCandles(arr);
+// }
+
+// ? Task #5
+// ? Largest Numbers
+// ! Function works but DOM doesn't ? What's wrong ? Check it !
+
+// function largestNumbers(n, arr) {
+//     arr.sort();
+//     return arr.slice(-n);
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let inp2 = document.querySelector(".inp2");
+//     let result = document.querySelector(".result");
+//     let myArr = inp2.value.trim().slice(" ");
+//     result.innerHTML = largestNumbers(inp1.value, myArr);
+// }
+
+// ? Task #6
+// ? Cleaning Up Messy Arrays
+// ! How to get array sign in HTML? What's wrong ? Check it !
+
+// function cleanUpArray(arr) {
+//     let mainArray = [];
+//     let evenArray = [];
+//     let oddArray = [];
+
+//     mainArray = arr.map(elem => Number(elem));
+//     evenArray = mainArray.filter(elem => elem % 2 === 0);
+//     oddArray = mainArray.filter(elem => elem % 2 != 0);
+//     return [evenArray, oddArray];
+// }
+
+// let btn = document.querySelector(".btn");
+
+// btn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let result = document.querySelector(".result");
+
+//     let myArray = inp1.value.trim().split(" ");
+
+//     result.innerHTML = cleanUpArray(myArray);
 // }
